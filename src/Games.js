@@ -19,8 +19,9 @@ export const Games = () => {
                     <div className='max-w-[1024px] max-h-[48px]'>
                         <input type="number" placeholder='Number' className='mx-auto w-[360px] h-[48px] bg-gray-200 rounded-[4px] p-[16px] gap-[10px]'></input>
                         </div>
-                        <div className='w-[119px] h-[48px] bg-gray-200 rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] bg-blue-600 ml-[28px] text-[16px] leading-4 font-koh Santepheap font-normal'>
-                        < button onClick={(Warning)=>{ alert('alert'); }}>Submit</button>
+                        <div>
+                        < button className='w-[119px] h-[48px] bg-gray-200 rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] bg-blue-600 ml-[28px] text-[16px] leading-4 font-koh Santepheap font-normal'>Submit</button>
+                        <button onclick="activateLasers()"> Activate Lasers</button>
                         </div>
                     <div>
                         < button className='w-[119px] h-[48px] rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] border-[1px] border-blue-600 text-blue-600 ml-[400px] text-[16px] leading-4 font-koh Santepheap font-normal'>Reset</button>
