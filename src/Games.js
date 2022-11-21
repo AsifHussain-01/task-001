@@ -20,23 +20,11 @@ export const Games = () => {
                         <input type="number" placeholder='Number' className='mx-auto w-[360px] h-[48px] bg-gray-200 rounded-[4px] p-[16px] gap-[10px]'></input>
                         </div>
                         <div>
-                        < button className='w-[119px] h-[48px] bg-gray-200 rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] bg-blue-600 ml-[28px] text-[16px] leading-4 font-koh Santepheap font-normal hover:bg-violet-600'>Submit</button>
+                        < button className='w-[119px] h-[48px] bg-gray-200 rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] bg-blue-600 ml-[28px] text-[16px] leading-4 font-koh Santepheap font-normal hover:bg-sky-900'>Submit</button>
                         </div>
                     <div>
                         < button className='w-[119px] h-[48px] rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] border-[1px] border-blue-600 text-blue-600 ml-[400px] text-[16px] leading-4 font-koh Santepheap font-normal'>Reset</button>
                     </div>
-                </div>
-                <div className='max-w-[1024px] h-full mt-[56px] mx-auto flex text-center content-center'>
-                    < button className='w-[16px] h-[16px] bg-amber-400 rounded-full'></button>
-                    <h1 className=' w-[86px] h-[12px] text-[12px] leading-[12px] font-normal'>Prime Number</h1>
-                    < button className='w-[16px] h-[16px] bg-emerald-400 rounded-full ml-[10px]'></button>
-                    <h1 className=' w-[86px] h-[12px] text-[12px] leading-[12px] font-normal'>Prime Number</h1>
-                    < button className='w-[16px] h-[16px] bg-blue-400 rounded-full ml-[10px]'></button>
-                    <h1 className=' w-[86px] h-[12px] text-[12px] leading-[12px] font-normal'>Prime Number</h1>
-                </div>
-            </div>
-            <div className='mb-[40px] bg-orange-100 border-[1px] border-orange-600 w-[1024px] h-[744px] mt-[40px] rounded-[24px] p-[48px] mx-auto'>
-                {/* box one  */}
                 <div className='flex gap-[10px]'>
                     <div className='rounded-[16px] bg-green-500 w-[213px] h-[150px] p-[16px] text-center'>
                         <h1 className='w-[18px] h-[32px] mt-[50px] ml-[53px] text-[32px] font-normal leading-8 text-white'>1</h1>
