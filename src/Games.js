@@ -23,7 +23,7 @@ export const Games = () => {
                         < button className='w-[119px] h-[48px] bg-gray-200 rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] bg-blue-600 ml-[28px] text-[16px] leading-4 font-koh Santepheap font-normal hover:bg-gray-700'>Submit</button>
                         </div>
                     <div>
-                        < button className='w-[119px] h-[48px] rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] border-[1px] border-blue-600 text-blue-600 ml-[400px] text-[16px] leading-4 font-koh Santepheap font-normal'>Reset</button>
+                        < button className='w-[119px] h-[48px] rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] border-[1px] border-blue-600 text-blue-600 ml-[400px] text-[16px] leading-4 font-koh Santepheap font-normal hover:bg-blue-500'>Reset</button>
                     </div>
                 <div className='flex gap-[10px]'>
                     <div className='rounded-[16px] bg-green-500 w-[213px] h-[150px] p-[16px] text-center'>
