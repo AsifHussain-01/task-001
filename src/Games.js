@@ -8,8 +8,8 @@ export const Games = () => {
 
 
     return (
-        <div className='container lg:w-full lg:max-w-[1024px] h-full lg:max-h-[1555px] lg:mx-auto lg:justify-center mb: w-[420px] mx-auto '>
-            <div className='lg:w-full lg:max-[1024px] h-full lg:max-h-[1555px] lg:mx-auto lg:flex lg:justify-center mb:w-[420px]'>
+        <div className='container lg:w-full lg:max-w-[1024px] h-full lg:max-h-[1555px] lg:mx-auto  mb:w-[420px] mb:mx-auto '>
+            <div className='lg:w-full lg:max-[1024px] h-full lg:max-h-[1555px] lg:mx-auto lg:flex lg:flex justify-center mb:w-[420px]'>
                 <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/image%201.svg' />
             </div>
             <div className='lg:w-full lg:max-w-[1024px] lg:mx-auto mb:w-[420px]'>
@@ -28,8 +28,8 @@ export const Games = () => {
                     <div className='lg:max-w-[1024px] lg:max-h-[48px] mb:w-[420px]'>
                         < button onClick={() => { myFunction() }} className='lg:w-[119px] lg:h-[48px] bg-gray-200 rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] bg-blue-600 ml-[28px] text-[16px] leading-4 font-koh Santepheap font-normal mb:w-[358px] ml-[0px]'>Submit</button>
                     </div>
-                    <div className='lg:max-w-[1024px] lg:max-h-[48px] lg:ml-[360px] mb:w-[420px]'>
-                        < button onClick={() => { window.location.replace("/") }} className='lg:w-[119px] lg:h-[48px] rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] border-[1px] border-blue-600 text-blue-600 ml-[400px] text-[16px] leading-4 font-koh Santepheap font-normal mb:w-[358px] ml-[1px]'>Reset</button>
+                    <div className='lg:max-w-[1024px] lg:max-h-[48px] lg:ml-[390px] mb:w-[420px]'>
+                        < button onClick={() => { window.location.replace("/") }} className='lg:w-[119px] lg:h-[48px] rounded-[4px] pl-[32px] pr-[32px] pt-[16px] pb-[16px] border-[1px] border-blue-600 text-blue-600 lg:ml-[0px] text-[16px] leading-4 font-koh Santepheap font-normal mb:w-[358px] ml-[1px]'>Reset</button>
                     </div>
 
                 </div>
@@ -60,22 +60,22 @@ export const Games = () => {
                     {/* box one  */}
                     <div className='flex gap-[10px] mb:flex-col '>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>1</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>1</h1>
                         </div>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white '>2</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x] '>2</h1>
                         </div>
                         <div className='rounded-[16px] bg-blue-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>3</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>3</h1>
                         </div>
                         <div className='rounded-[16px] bg-blue-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>4</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>4</h1>
                         </div>
                         <div className='rounded-[16px] bg-blue-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>5</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>5</h1>
                         </div>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>6</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>6</h1>
                         </div>
 
                     </div>
@@ -85,22 +85,22 @@ export const Games = () => {
                     {/* box two  */}
                     <div className='flex gap-[10px] mb:flex-col'>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>7</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>7</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>8</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>8</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>9</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>9</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>10</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>10</h1>
                         </div>
                         <div className='rounded-[16px] bg-blue-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>11</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>11</h1>
                         </div>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>12</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>12</h1>
                         </div>
 
                     </div>
@@ -110,22 +110,22 @@ export const Games = () => {
                     {/* box three */}
                     <div className='flex  gap-[10px] mb:flex-col'>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>13</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>13</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>14</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>14</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>15</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>15</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>16</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>16</h1>
                         </div>
                         <div className='rounded-[16px] bg-blue-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>17</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>17</h1>
                         </div>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>18</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>18</h1>
                         </div>
 
                     </div>
@@ -134,22 +134,22 @@ export const Games = () => {
 
                     <div className='flex  gap-[10px] mb:flex-col'>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>19</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>19</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>20</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>20</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>21</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>21</h1>
                         </div>
                         <div className='rounded-[16px] bg-green-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>22</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>22</h1>
                         </div>
                         <div className='rounded-[16px] bg-blue-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>23</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>23</h1>
                         </div>
                         <div className='rounded-[16px] bg-yellow-500 lg:w-[213px] lg:h-[150px] p-[16px] text-center mb:w-[66px] mb:h-[64px]'>
-                            <h1 className='text-[32px] font-normal leading-8 text-white'>24</h1>
+                            <h1 className='text-[32px] font-normal leading-8 text-white lg:pl-[24px] lg:pt-[16px] mb:pl-[0px] mb:pt-[0x]'>24</h1>
                         </div>
 
                     </div>
