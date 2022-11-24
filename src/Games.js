@@ -38,15 +38,15 @@ export const Games = () => {
                 <div className='lg:w-[1024px] mt-[30px] h-[16px] mb:w-[420px] mt-[30px] flex'>
                     <div className='flex w-[140px]'>
                         < button className='w-[16px] h-[16px] rounded-full bg-amber-400'></button>
-                        <h1 className='w-[86px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Prime Number</h1>
+                        <h1 className='w-[87px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Prime Number</h1>
                     </div>
                     <div className='flex w-[140px]'>
                         < button className='w-[16px] h-[16px] rounded-full bg-amber-400'></button>
-                        <h1 className='w-[86px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Even Number</h1>
+                        <h1 className='w-[87px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Even Number</h1>
                     </div>
                     <div className='flex w-[140px]'>
                         < button className='w-[16px] h-[16px] rounded-full bg-amber-400'></button>
-                        <h1 className='w-[86px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Odd Number</h1>
+                        <h1 className='w-[87px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Odd Number</h1>
                     </div>
                 </div>
 
