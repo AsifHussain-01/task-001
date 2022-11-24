@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export const Games = () => {
 
     function myFunction() {
@@ -36,16 +36,20 @@ export const Games = () => {
 
                 {/* button  */}
                 <div className='lg:w-[1024px] mt-[30px] h-[16px] mb:w-[420px] mt-[30px] flex'>
-                    <div className='flex w-[140px]'>
-                        < button className='w-[16px] h-[16px] rounded-full bg-amber-400'></button>
+                    <div className='flex w-[110px] h-[20px] hover:border-b-[3px] border-red-500'>
+                      
+                        <button className='w-[16px] h-[16px] rounded-full bg-red-500'></button>
+                        
                         <h1 className='w-[87px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Prime Number</h1>
                     </div>
-                    <div className='flex w-[140px]'>
-                        < button className='w-[16px] h-[16px] rounded-full bg-amber-400'></button>
+                    <div className='flex ml-[10px] w-[110px] h-[20px] hover:border-b-[3px] border-green-900'>
+                    
+                        <button className='w-[16px] h-[16px] rounded-full bg-green-900'></button>
                         <h1 className='w-[87px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Even Number</h1>
                     </div>
-                    <div className='flex w-[140px]'>
-                        < button className='w-[16px] h-[16px] rounded-full bg-amber-400'></button>
+                    <div className='flex ml-[10px] w-[110px] h-[20px] hover:border-b-[3px] border-blue-900'>
+                    
+                        <button className='w-[16px] h-[16px] rounded-full bg-blue-900'></button>
                         <h1 className='w-[87px] h-[12px] pl-[7px] pt-[2px] text-[12px] leading-3'>Odd Number</h1>
                     </div>
                 </div>
